@@ -4,7 +4,7 @@ t=int(input())
 while t:
     a,b,c=map(int,input().split())
     s=a+b+c
-    if(s%2==0 and s%3==0):
+    if(s>=6):
         print('yes')
     else:
         print('no')
